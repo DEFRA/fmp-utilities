@@ -1,5 +1,5 @@
 {
-  "name": "@defra/fmp-shared-utils",
+  "name": "@defra/fmp-utilities",
   "version": "1.0.0",
   "description": "A package that holds shared functions for the FMP repositories",
   "license": "FMFP",
