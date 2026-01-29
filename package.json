@@ -1,0 +1,37 @@
+{
+  "name": "@defra/fmp-utilities",
+  "version": "1.0.0",
+  "description": "A package that holds shared functions for the FMP repositories",
+  "license": "FMFP",
+  "author": "FMFP Team",
+  "type": "commonjs",
+  "main": "lib/index.js",
+  "scripts": {
+    "quick-test": "jest --coverage",
+    "test": "standard && npm run quick-test",
+    "jest-watch": "jest --watch"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.4.3"
+  },
+  "devDependencies": {
+    "jest": "^30.1.3",
+    "standard": "^17.1.2",
+    "area-polygon": "^1.0.1",
+    "@mapbox/polyline": "^1.2.1",
+    "@turf/turf": "^7.2.0"
+  },
+  "repository": "https://github.com/MickStein/fmp-shared-utils.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "standard": {
+    "env": [
+      "jest",
+      "node"
+    ]
+  }
+}
