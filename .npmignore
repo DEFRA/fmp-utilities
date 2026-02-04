@@ -1,5 +1,6 @@
 node_modules
 __tests__
+__snapshots__
 coverage
 .env
 .DS_Store
