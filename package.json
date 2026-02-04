@@ -6,7 +6,7 @@
   "author": "FMFP Team",
   "type": "commonjs",
   "main": "lib/index.js",
-  "files": ["lib"],
+  "files": ["lib", "lib/dates"],
   "scripts": {
     "quick-test": "jest --coverage",
     "eslint": "eslint",
