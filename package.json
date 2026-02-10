@@ -4,12 +4,15 @@
   "description": "A package that holds shared functions for the FMP repositories",
   "license": "FMFP",
   "author": "FMFP Team",
-  "type": "commonjs",
+  "type": "module",
   "main": "dist/index.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "exports": {
     ".": "./dist/index.js",
-    "./dates": "./dist/dates.js"
+    "./dates": "./dist/dates.js",
+    "./product-four": "./dist/product-four.js"
   },
   "scripts": {
     "build": "webpack",
@@ -31,5 +34,8 @@
   "repository": "https://github.com/DEFRA/fmp-utilities.git",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "nanoid": "^5.1.6"
   }
 }
