@@ -6,9 +6,10 @@ export default {
     index: ['./lib/index.js'],
     dates: ['./lib/dates/index.js']
   },
-  mode: 'production',
+  mode: 'development',
   output: {
     filename: '[name].js',
+    libraryTarget: 'umd',
     path: path.resolve(__dirname, 'dist')
   },
   plugins: [],
