@@ -10,9 +10,9 @@
     "dist"
   ],
   "exports": {
-    ".": "./dist/index.js",
-    "./dates": "./dist/dates.js",
-    "./product-four": "./dist/product-four.js"
+    ".": "./dist/index.cjs",
+    "./dates": "./dist/dates.cjs",
+    "./product-four": "./dist/product-four.cjs"
   },
   "scripts": {
     "build": "webpack",
