@@ -7,6 +7,10 @@
   "type": "commonjs",
   "main": "dist/index.js",
   "files": ["dist"],
+  "exports": {
+    ".": "./dist/index.js",
+    "./dates": "./dist/dates/index.js"
+  },
   "scripts": {
     "build": "webpack",
     "quick-test": "jest --coverage",
