@@ -1,3 +1,6 @@
 'use strict'
 
-module.exports = require('neostandard')({ env: ['jest', 'node'] })
+module.exports = require('neostandard')({
+  ignores: ['dist/'],
+  env: ['jest', 'node']
+})
