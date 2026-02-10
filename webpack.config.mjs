@@ -3,7 +3,8 @@ const __dirname = path.dirname('./')
 
 export default {
   entry: {
-    index: ['./lib/index.js']
+    index: ['./lib/index.js'],
+    dates: ['./lib/dates/index.js']
   },
   mode: 'production',
   output: {
