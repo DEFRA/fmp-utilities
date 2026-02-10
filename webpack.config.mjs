@@ -1,5 +1,5 @@
-import path from 'path'
-const __dirname = path.dirname('./')
+import path from 'node:path'
+const _dirname = path.dirname('./')
 
 export default {
   entry: {
@@ -10,7 +10,7 @@ export default {
   output: {
     filename: '[name].js',
     libraryTarget: 'umd',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(_dirname, 'dist')
   },
   plugins: [],
   module: {
