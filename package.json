@@ -9,7 +9,7 @@
   "files": ["dist"],
   "exports": {
     ".": "./dist/index.js",
-    "./dates": "./dist/dates/index.js"
+    "./dates": "./dist/dates.js"
   },
   "scripts": {
     "build": "webpack",
