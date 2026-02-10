@@ -6,7 +6,7 @@ export default {
     index: ['./lib/index.js'],
     dates: ['./lib/dates/index.js']
   },
-  mode: 'development',
+  mode: 'production',
   output: {
     filename: '[name].js',
     libraryTarget: 'umd',
