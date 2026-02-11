@@ -5,7 +5,7 @@
   "license": "FMFP",
   "author": "FMFP Team",
   "type": "module",
-  "main": "dist/index.js",
+  "main": "dist/index.cjs",
   "files": [
     "dist"
   ],
