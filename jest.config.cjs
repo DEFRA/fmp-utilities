@@ -18,7 +18,7 @@ module.exports = async () => {
       '__mocks__'
     ],
     coveragePathIgnorePatterns: [
-      '/product-four/generateReferenceNumber',
+      '/lib/product-four/',
       '/coverage',
       '/dist',
       'jest.config.cjs',

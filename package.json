@@ -12,7 +12,8 @@
   "exports": {
     ".": "./dist/index.cjs",
     "./dates": "./dist/dates.cjs",
-    "./product-four": "./dist/product-four.cjs"
+    "./product-four": "./dist/product-four.cjs",
+    "./secureUtils": "./dist/secureUtils.cjs"
   },
   "scripts": {
     "build": "webpack",

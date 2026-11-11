@@ -5,7 +5,8 @@ export default {
   entry: {
     index: ['./lib/index.cjs'],
     dates: ['./lib/dates/index.cjs'],
-    'product-four': ['./lib/product-four/index.js']
+    'product-four': ['./lib/product-four/index.js'],
+    secureUtils: ['./lib/secure-utils/index.cjs']
   },
   mode: 'production',
   output: {
@@ -18,7 +19,7 @@ export default {
     rules: []
   },
   resolve: {
-    extensions: ['.js'],
+    extensions: ['.js', '.cjs'],
   },
   target: ['node']
 }
